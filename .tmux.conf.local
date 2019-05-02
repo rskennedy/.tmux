@@ -238,14 +238,15 @@ tmux_conf_battery_bar_palette='#bf616a,#eceff4,#2e3440'   # red, white, black
 #   - heat
 #   - 'colour_low,colour_half,colour_full'
 tmux_conf_battery_hbar_palette='gradient'
-tmux_conf_battery_hbar_palette='#bf616a,#d08770,#a3be8c'  # red, orange, green
+tmux_conf_battery_hbar_palette='#a3be8c,#cbf616a,#d08770'  # red, orange, green
 
 # battery vbar palette, possible values are:
 #   - gradient (default)
 #   - heat
 #   - 'colour_low,colour_half,colour_full'
 tmux_conf_battery_vbar_palette='gradient'
-tmux_conf_battery_hbar_palette='#bf616a,#d08770,#a3be8c'  # red, orange, green
+# tmux_conf_battery_hbar_palette='#bf616a,#d08770,#a3be8c'  # red, orange, green
+tmux_conf_battery_hbar_palette='#000000,#a3be8c,#a3be8c'  # red, orange, green
 
 # symbols used to indicate whether battery is charging or discharging
 tmux_conf_battery_status_charging='↑'       # U+2191
@@ -270,8 +271,10 @@ tmux_conf_theme_mode_bg='#88C0D0'                       # yellow
 tmux_conf_theme_window_status_current_fg='#2E3440'      # black
 tmux_conf_theme_window_status_current_bg='#88C0D0'      # light blue
 tmux_conf_theme_window_status_last_fg='#88C0D0'         # light blue
-tmux_conf_theme_status_left_fg='#2E3440,#ECEFF4,#ECEFF4'  # black, white , white
-tmux_conf_theme_status_left_bg='#EBCB8B,#B48EAD,#88C0D0'  # yellow, pink, white blue
+# tmux_conf_theme_status_left_fg='#2E3440,#ECEFF4,#ECEFF4'  # black, white , white
+tmux_conf_theme_status_left_fg='#eceff4,#2E3440,#ECEFF4'  # black, white , white
+# tmux_conf_theme_status_left_bg='#ebcB8b,#d08770,#88c0d0'  # yellow, pink, white blue
+tmux_conf_theme_status_left_bg='#b48ead,#ebcB8b,#88c0d0'  # yellow, pink, white blue
 tmux_conf_theme_status_right_fg='#D8DEE9,#2E3440,#2E3440' # light gray, white, black
 tmux_conf_theme_status_right_bg='#d8dee9,#BF616A,#e4e4e4' # dark gray, red, white
 tmux_conf_theme_clock_colour='#88C0D0'  # light blue
